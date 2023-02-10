@@ -35,7 +35,7 @@ export default function NavBar({ lngCh }: any) {
               to="/"
             >
               <img src="/assets/images/logo1.png" alt="Logo" className="w-[125px] md:w-[90px] xl:w-[120px]" />
-              <h1 className="font-chakrapetch text-[22px] md:text-[20px] xl:text-[24px] text-white my-auto ml-[18px] uppercase"><Trans i18nKey="company_title">algonrich</Trans></h1>
+              <h1 className="font-chakrapetch text-[22px] hidden sm:block md:text-[20px] xl:text-[24px] text-white my-auto ml-[18px] uppercase"><Trans i18nKey="company_title">algonrich</Trans></h1>
             </NavLink>
             {/* </a> */}
             <div className="md:hidden flex space-x-1">
@@ -139,6 +139,11 @@ export default function NavBar({ lngCh }: any) {
                 <NavLink
                   to="/news"
                 ><Trans i18nKey="tab_news">News</Trans></NavLink>
+              </li>
+              <li>
+                <NavLink
+                  to="/blog"
+                ><Trans i18nKey="tab_blog">Blog</Trans></NavLink>
               </li>
               <li>
                 <NavLink

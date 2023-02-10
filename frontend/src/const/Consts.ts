@@ -1,5 +1,5 @@
-const COINSFROM = ['BNB', 'ALGO'];
-const COINSFTO = ['ALGO', 'BNB'];
+const COINSFROM = ['BNB', 'ALGO', 'BUSD', 'Dogecoin', 'BTCB', 'USDC'];
+const COINSFTO = ['ALGO', 'BNB', 'BUSD', 'Dogecoin', 'BTCB', 'USDC'];
 const API_BASIC_URL = process.env.REACT_APP_API_BASIC_URL;
 const RoadmapInfo = [
   {
