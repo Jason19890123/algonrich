@@ -109,7 +109,7 @@ export default function Swap() {
         <div className="swap_form_content_top">
           <div className="swap_control_left">
             {/* <span>Swap</span> */}
-            {account && <span><FontAwesomeIcon icon={faWallet} color="white" size="xl" style={{marginRight:"10px"}}/>{shortenIfAddress(account)}</span>}
+            {account && <span className="flex"><FontAwesomeIcon icon={faWallet} color="white" size="xs" style={{marginRight:"10px", border: "1px solid", borderRadius: "50%", padding: "3px"}}/>{shortenIfAddress(account)}</span>}
           </div>
           <div className="swap_contol_right">
             <div
