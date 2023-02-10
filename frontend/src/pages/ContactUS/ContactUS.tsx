@@ -128,17 +128,17 @@ const ContactForm = () => {
         </div>
       </form>
       <div className="inline-block text-center mt-[20px]">
-        <div className="p-[5px]">
-          <FontAwesomeIcon icon={solid("envelope")} style={{marginLeft:0}}/>
-          <span style={{marginLeft:"5px"}}>Admin@algonrich.com</span>
+        <div className="grid grid-cols-[50px_1fr]">
+          <div><FontAwesomeIcon icon={solid("envelope")}/></div>
+          <div><span style={{marginLeft:"5px"}}>Admin@algonrich.com</span></div>
         </div>
-        <div className="p-[5px]">
-          <FontAwesomeIcon icon={solid("envelope")} />
-          <span>Support@algonrich.com</span>
+        <div className="grid grid-cols-[50px_1fr]">
+          <div><FontAwesomeIcon icon={solid("envelope")} /></div>
+          <div><span>Support@algonrich.com</span></div>
         </div>
-        <div className="p-[5px]">
-          <FontAwesomeIcon icon={solid("envelope")} />
-          <span>Jobs@algonrich.com</span>
+        <div className="grid grid-cols-[50px_1fr]">
+          <div><FontAwesomeIcon icon={solid("envelope")} /></div>
+          <div><span>Jobs@algonrich.com</span></div>
         </div>
       </div>
     </div>
