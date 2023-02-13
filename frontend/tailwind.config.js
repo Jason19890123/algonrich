@@ -1,4 +1,4 @@
-/** @type {import('tailwindcss').Config} */
+const defaultTheme = require('tailwindcss/defaultTheme')
 module.exports = {
   content: [
     "./src/**/*.{js,jsx,ts,tsx}",
@@ -6,9 +6,12 @@ module.exports = {
   ],
   theme: {
     fontFamily: {
-      'chakrapetch': ['Chakra Petch']
+      'josefin': ['Josefin Sans', ...defaultTheme.fontFamily.sans]
     },
     extend: {},
+    container: {
+      center: true,
+    },
     screens: {
       'xsm': '320px',
       'sm': '640px',

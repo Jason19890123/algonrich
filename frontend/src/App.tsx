@@ -10,6 +10,7 @@ import NavBar from 'components/NavBar';
 import ScrollTopBtn from 'components/ScrollTobBtn';
 import Swap from 'pages/Swap';
 import { ToastContainer, toast } from 'react-toastify';
+import Blog from 'pages/Blog/Blog';
 
 function App() {
   const { t, i18n, ready } = useTranslation();
@@ -25,6 +26,7 @@ function App() {
           <Route path="/comingsoon" element={<ComingSoon />} />
           <Route path="/contactus" element={<ContactUS />} />
           <Route path="/swap" element={<Swap />} />
+          <Route path="/blog" element={<Blog />} />
         </Routes>
         <ScrollTopBtn />
         <ToastContainer />
