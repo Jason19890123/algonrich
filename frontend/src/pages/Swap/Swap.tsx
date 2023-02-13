@@ -102,7 +102,7 @@ export default function Swap() {
     <div className="swap_form mt-[150px] gap-[100px] flex-col md:flex-row items-center">
       <div className="max-w-[500px] text-left">
         <p className="text-xl text-white font-bold">COIN SWAP</p>
-        <p className="text-[42px] font-bold">You can swap <span style={{color:"#FF06B7"}}> Alog's</span> here</p>
+        <p className="text-[42px] font-bold">You can swap <span style={{color:"#FF06B7"}}> Algo's</span> here</p>
         <p className="text-xl text-white">Take advantage now of our prices's and rewards.</p>
       </div>
       <div className="swap_form_content w-[90%] md:max-w-[450px]">

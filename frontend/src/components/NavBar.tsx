@@ -137,13 +137,8 @@ export default function NavBar({ lngCh }: any) {
               </li>
               <li>
                 <NavLink
-                  to="/news"
-                ><Trans i18nKey="tab_news">News</Trans></NavLink>
-              </li>
-              <li>
-                <NavLink
                   to="/blog"
-                ><Trans i18nKey="tab_blog">Blog</Trans></NavLink>
+                ><Trans i18nKey="tab_news">News</Trans></NavLink>
               </li>
               <li>
                 <NavLink
