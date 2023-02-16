@@ -19,8 +19,13 @@ export class ContactService {
     return 'This action adds a new contact';
   }
 
-  findAll() {
-    return `This action returns all contact`;
+  async findAll() {
+    const contacts = await this.contactRepository.find();
+    const contact = await this.contactRepository.findBy({
+      lastname:'Steven',
+    });
+    console.log(contact);
+    return contacts;
   }
 
   findOne(id: number) {

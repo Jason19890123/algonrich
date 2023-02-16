@@ -42,8 +42,8 @@ export class ContactController {
   }
 
   @Get()
-  findAll() {
-    return this.contactService.findAll();
+  async findAll() {
+    return await this.contactService.findAll();
   }
 
   @Get(':id')
